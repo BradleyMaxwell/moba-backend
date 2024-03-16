@@ -7,9 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moba.Backend.Application", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moba.Backend.Domain", "Moba.Backend.Domain\Moba.Backend.Domain.csproj", "{7275D415-3657-4547-9048-73F428C6459F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moba.Backend.Presentation", "Moba.Backend.Presentation\Moba.Backend.Presentation.csproj", "{E5E66C8A-7392-4B30-8841-6694A0FD941D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moba.Backend.Infrastructure", "Moba.Backend.Infrastructure\Moba.Backend.Infrastructure.csproj", "{1C5B842E-9119-4BB8-A933-1EED648CE199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moba.Backend.Api", "Moba.Backend.Api\Moba.Backend.Api.csproj", "{64822AE8-E529-47BB-A982-B6FB87920BB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +36,9 @@ Global
 		{1C5B842E-9119-4BB8-A933-1EED648CE199}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C5B842E-9119-4BB8-A933-1EED648CE199}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C5B842E-9119-4BB8-A933-1EED648CE199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64822AE8-E529-47BB-A982-B6FB87920BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64822AE8-E529-47BB-A982-B6FB87920BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64822AE8-E529-47BB-A982-B6FB87920BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64822AE8-E529-47BB-A982-B6FB87920BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

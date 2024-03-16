@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Moba.Backend.Presentation.Contracts;
+using Moba.Backend.Api.Contracts;
 
-namespace Moba.Backend.Presentation
+namespace Moba.Backend.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("hero")]
     public class HeroesController : ControllerBase
     {
         [HttpGet("{heroId:guid}")]
@@ -18,7 +18,7 @@ namespace Moba.Backend.Presentation
             (
                 heroId,
                 "Lucian",
-                "Everybody dies.",
+                "Gun slinger looking to save or avenge his wife.",
                 500,
                 80,
                 30
